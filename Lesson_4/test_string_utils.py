@@ -107,4 +107,6 @@ def test_list_to_string_negative(string_utils):
     with pytest.raises(TypeError):
         string_utils.list_to_string("not a list", ",")
     with pytest.raises(ValueError):
-        string_utils.list_to_string([1, "two", 3], ",")         
+        string_utils.list_to_string([1, "two", 3], ",")
+
+pytest test_string_utils.py
