@@ -38,7 +38,7 @@ class StringUtils:
     def contains(self, string: str, symbol: str) -> bool:
         """
         Возвращает `True`, если строка содержит искомый символ
-         и `False` - если нет \n
+        и `False` - если нет \n
         Параметры: \n
             `string` - строка для обработки \n
             `symbol` - искомый символ \n
@@ -69,7 +69,7 @@ class StringUtils:
     def starts_with(self, string: str, symbol: str) -> bool:
         """
         Возвращает `True`, если строка начинается с заданного символа
-         и `False` - если нет \n
+        и `False` - если нет \n
         Параметры: \n
             `string` - строка для обработки \n
             `symbol` - искомый символ \n
@@ -80,8 +80,8 @@ class StringUtils:
 
     def end_with(self, string: str, symbol: str) -> bool:
         """
-        Возвращает `True`, если строка заканчивается заданным
-         символом и `False` - если нет \n
+        Возвращает `True`, если строка заканчивается заданным символом
+        и `False` - если нет \n
         Параметры: \n
             `string` - строка для обработки \n
             `symbol` - искомый символ \n
@@ -105,8 +105,7 @@ class StringUtils:
         Преобразует список элементов в строку с указанным разделителем \n
         Параметры: \n
             `lst` - список элементов \n
-            `joiner` - разделитель элементов в строке.
-            По умолчанию запятая (", ") \n
+            `joiner` - разделитель элементов в строке. По умолчанию запятая (", ") \n
         Пример 1: `list_to_string([1,2,3,4]) -> "1, 2, 3, 4"`
         Пример 2: `list_to_string(["Sky", "Pro"]) -> "Sky, Pro"`
         Пример 3: `list_to_string(["Sky", "Pro"], "-") -> "Sky-Pro"`
@@ -121,3 +120,4 @@ class StringUtils:
             string += str(lst[i]) + joiner
 
         return string + str(lst[-1])
+    
