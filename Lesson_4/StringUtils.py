@@ -5,7 +5,8 @@ class StringUtils:
 
     def capitilize(self, string: str) -> str:
         """
-        Принимает на вход текст, делает первую букву заглавной и возвращает этот же текст
+        Принимает на вход текст, делает первую букву заглавной
+        и возвращает этот же текст
         Пример: `capitilize("skypro") -> "Skypro"`
         """
         return string.capitalize()
@@ -36,7 +37,8 @@ class StringUtils:
 
     def contains(self, string: str, symbol: str) -> bool:
         """
-        Возвращает `True`, если строка содержит искомый символ и `False` - если нет \n
+        Возвращает `True`, если строка содержит искомый символ
+        и `False` - если нет \n
         Параметры: \n
             `string` - строка для обработки \n
             `symbol` - искомый символ \n
@@ -66,7 +68,8 @@ class StringUtils:
 
     def starts_with(self, string: str, symbol: str) -> bool:
         """
-        Возвращает `True`, если строка начинается с заданного символа и `False` - если нет \n
+        Возвращает `True`, если строка начинается с заданного символа
+        и `False` - если нет \n
         Параметры: \n
             `string` - строка для обработки \n
             `symbol` - искомый символ \n
@@ -77,7 +80,8 @@ class StringUtils:
 
     def end_with(self, string: str, symbol: str) -> bool:
         """
-        Возвращает `True`, если строка заканчивается заданным символом и `False` - если нет \n
+        Возвращает `True`, если строка заканчивается заданным символом
+        и `False` - если нет \n
         Параметры: \n
             `string` - строка для обработки \n
             `symbol` - искомый символ \n
@@ -116,3 +120,4 @@ class StringUtils:
             string += str(lst[i]) + joiner
 
         return string + str(lst[-1])
+    
