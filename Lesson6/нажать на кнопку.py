@@ -17,4 +17,3 @@ text = green_banner.text
 print(text)
 
 driver.quit()
-
